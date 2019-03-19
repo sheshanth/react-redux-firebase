@@ -26,7 +26,8 @@ form button, form h5 {
   margin: 20px 0px;
 }
 
-input[type=text]:not(.browser-default):focus:not([readonly]),
+/* input[type=text]:not(.browser-default):focus:not([readonly]), */
+input[type=text]:focus,
 input[type=password]:not(.browser-default):focus:not([readonly]),
 input[type=email]:not(.browser-default):focus:not([readonly]) {
   border-color: pink;
